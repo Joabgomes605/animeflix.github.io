@@ -200,6 +200,9 @@ footer small{
     }
     main{
         background-image: url("../img/crossover_animes_boku-goku.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .titulo_link{
         width: 70%;
