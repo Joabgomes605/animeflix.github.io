@@ -198,26 +198,31 @@ footer small{
         border-radius: 3px;
         font-size: 0.9rem;
     }
+    main{
+        background-image: url("../img/crossover_animes_02.jpg");
+    }
     .titulo_link{
-        width: 90%;
+        width: 70%;
     }
     .titulo{
         width: 100%;
+        background-color: #000000;
     }
     .titulo_link > .titulo > h1{
         color: #e3f707;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         text-align: center;
     }
     .titulo_link > .link > a {
         text-decoration: none;
         padding: 10px 12px;
-        background-color: #e3f707;
+        background-color:  #e3f707;
         color: #000000;
         font-weight: 700;
         font-size: 1rem;
         border-radius: 5px;
     }
+    
 }
 
 @media (max-width:375px) {
@@ -241,6 +246,9 @@ footer small{
     }
     .login{    
         padding: 4px 25px;
+    }
+    .titulo_link{
+        width: 80%;
     }
     main{
         height: calc(100vh - 130px);
@@ -282,13 +290,13 @@ footer small{
         height: calc(100vh - 130px);
     }
     .titulo_link{
-        width: 100%;
+        width: 80%;
     }
     .titulo{
         width: 100%;
     }
     .titulo_link > .titulo > h1{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     footer > small{
         font-size: 0.6rem;
