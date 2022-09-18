@@ -175,7 +175,7 @@ input[type="email"], input[type="password"],input[type="text"]{
 }
 input[type="submit"]{
     margin-top: 5px;
-    padding: 10px 50px;
+    padding: 10px 30px;
     background-color: #222222;
     border: none;
     color: #e3f707;
