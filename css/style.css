@@ -199,7 +199,7 @@ footer small{
         font-size: 0.9rem;
     }
     main{
-        background-image: url("../img/crossover_animes_boku-goku.jpg");
+        background-image: url("../img/boku_hero_2.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -209,10 +209,10 @@ footer small{
     }
     .titulo{
         width: 100%;
-        background-color: #000000;
+        background-color: #e3f707;
     }
     .titulo_link > .titulo > h1{
-        color: #e3f707;
+        color: #000000;
         font-size: 1.2rem;
         text-align: center;
     }
