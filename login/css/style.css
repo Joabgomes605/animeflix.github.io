@@ -32,6 +32,35 @@ header{
     font-size: 1.8rem;
 }
 
+nav{
+    width: 50%;
+    height: 70px;
+}
+nav > ul {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+nav > ul > li {
+    margin-right: 20px;
+    list-style: none;
+}
+nav > ul > li > a {
+    padding: 8px 15px;
+    border-radius: 3px;
+    background-color: #e3f707;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 2px 2px 5px #000000;
+}
+nav > ul > li > a:hover{
+    transition: 0.5s;
+    padding: 10px 20px;
+}
+
 /*main*/
 
 main{
@@ -47,8 +76,8 @@ main{
 }
 
 .chat{
-    width: 55px;
-    height: 55px;
+    width: 52px;
+    height: 52px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,6 +87,14 @@ main{
     bottom: 60px;
     right: 20px;
     border-radius: 50%;
+    box-shadow: 2px 2px 5px #000000;
+}
+.chat > a {
+    text-decoration: none;
+    color: #000000;
+}
+.chat > a > .material-symbols-outlined{
+    font-size: 1.5rem;
 }
 .chat:hover{
     -webkit-animation: rotate-scale-up 0.65s linear both;
@@ -104,7 +141,7 @@ main{
 
 .formulario_login{
     width: 60%;
-    height: 350px;
+    height: 450px;
     background-color: #e3f707;
     box-shadow: 3px 3px 5px #000000;
     display: flex;
@@ -112,10 +149,11 @@ main{
 }
 .formulario_login > form{
     width: 100%;
-    height: 250px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .titulo_form{
     width: 100%;
@@ -129,7 +167,7 @@ main{
     font-size: 1.8rem;
 }
 .input_button{
-    width: 80%;
+    width: 100%;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -138,7 +176,7 @@ main{
     gap: 15px;
 }
 input[type="email"], input[type="password"]{
-    width: 60%;
+    width: 50%;
     padding: 12px;
     border-radius: 3px;
     border: none;
@@ -146,8 +184,7 @@ input[type="email"], input[type="password"]{
 }
 input[type="submit"]{
     margin-top: 5px;
-    width: 20%;
-    padding: 8px;
+    padding: 10px 50px;
     background-color: #222222;
     border: none;
     color: #e3f707;
@@ -160,6 +197,17 @@ input[type="submit"]:hover{
     cursor: pointer;
     transition: 0.8s;
     background-color: #000000;
+}
+
+.registre-se{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.registre-se > span > a{
+    text-decoration: none;
 }
 
 /*footer*/
@@ -177,227 +225,105 @@ footer small{
 }
 
 @media (max-width:1024px) {
-    .titulo_link{
+    .formulario_login{
+        width: 70%;
+        height: 350px;
+    }
+    input[type="email"], input[type="password"]{
         width: 60%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 25px;
     }
-    
-    .titulo{
-        width: 100%;
-        background-color:#e3f707;
-        padding: 10px;
-        box-shadow: 2px 2px 5px #000000;
-    }
-    
-    .titulo_link > .titulo > h1{
-        color: #000000;
-        font-size: 2rem;
-        text-align: center;
-    }
-    
-    .titulo_link > .link > a {
-        text-decoration: none;
-        padding: 15px 25px;
-        font-weight: 700;
-        font-size: 1.5rem;
-        border-radius: 5px;
-        box-shadow: 2px 2px 5px #000000;
+    input[type="submit"]{
+        padding: 10px 50px;
     }
 }
 
 @media (max-width:768px) {
-    .amarelo{
-        color: #e3f707;
-        font-weight: bold;
-        font-size: 1.5rem;
+    .formulario_login{
+        width: 70%;
+        height: 350px;
     }
-    .registro{
-        text-decoration: none;
-        padding: 5px 15px;
-        background-color: #ffffff;
-        color: #222222;
-        font-weight: 500;
-        border-radius: 3px;
-    }
-    .login{
-        text-decoration: none;
-        padding: 5px 15px;
-        background-color: #e3f707;
-        color: #222222;
-        font-weight: 500;
-        border-radius: 3px;
-    }
-    .titulo_link{
+    input[type="email"], input[type="password"]{
         width: 70%;
     }
-    .titulo{
-        width: 100%;
-        background-color: #e3f707;
-    }
-    .titulo_link > .titulo > h1{
-        color: #000000;
-        font-size: 1.7rem;
-        text-align: center;
-    }
-    .titulo_link > .link > a {
-        text-decoration: none;
-        padding: 10px 20px;
-        font-weight: 700;
-        font-size: 1.5rem;
-        border-radius: 5px;
-    }
-}
-
-@media (max-width:425px) {
-    .logo{
-        width: 30%;
-    }
-    .logo > a{
-        margin-left: 20px;
-    }
-    nav{
-        width: 70%;
-    }
-    nav > ul{
-        gap: 10px;
-        margin-right: 20px;
-    }
-    .amarelo{
-        color: #e3f707;
-        font-weight: bold;
-        font-size: 1.2rem;
-    }
-    .registro{
-        text-decoration: none;
-        padding: 4px 10px;
-        background-color: #ffffff;
-        color: #222222;
-        font-weight: 500;
-        border-radius: 3px;
-        font-size: 0.9rem;
-    }
-    .login{
-        text-decoration: none;
-        padding: 4px 10px;
-        background-color: #e3f707;
-        color: #222222;
-        font-weight: 500;
-        border-radius: 3px;
-        font-size: 0.9rem;
-    }
-    main{
-        background-image: url("../img/boku_hero_2.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .titulo_link{
-        width: 70%;
-    }
-    .titulo{
-        width: 100%;
-        background-color: #e3f707;
-        box-shadow: 3px 3px 8px #222222;
-    }
-    .titulo_link > .titulo > h1{
-        color: #000000;
-        font-size: 1rem;
-        text-align: center;
-    }
-    .titulo_link > .link > a {
-        text-decoration: none;
-        padding: 10px 12px;
-        font-weight: 700;
-        font-size: 1rem;
-        border-radius: 5px;
-        box-shadow: 3px 3px 8px #222222;
+    input[type="submit"]{
+        padding: 8px 50px;
     }
     
 }
 
-@media (max-width:375px) {
-    header{
-        height: 90px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    nav{
+@media (max-width:425px) {
+    .formulario_login{
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        height: calc(100vh - 110px);
     }
-    nav > ul {
-        width: 90%;
-        display: flex;
-        justify-content: center;
-        margin-left: 30px;
+    input[type="email"], input[type="password"]{
+        width: 70%;
     }
-    .login{    
-        padding: 4px 25px;
+    .chat{
+        background-color: #000000;
     }
-    .titulo_link{
+    .chat > a > span{
+        color: #e3f707;
+    }
+    input[type="submit"]{
+        padding: 8px 40px;
+    }
+    footer > small{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:375px) {
+    .logo > a > span{
+        font-size: 1.2rem;
+    }
+    .formulario_login{
+        width: 100%;
+        height: calc(100vh - 110px);
+    }
+    input[type="email"], input[type="password"]{
         width: 80%;
     }
-    main{
-        height: calc(100vh - 130px);
+    .chat{
+        background-color: #000000;
     }
-
+    nav > ul > li > a {
+        padding: 5px 8px;
+    }
+    nav > ul > li > a:hover{
+        transition: 0.5s;
+        padding: 8px 12px;
+    }
     footer > small{
         font-size: 0.7rem;
     }
 }
 
 @media (max-width:320px) {
-    header{
-        height: 90px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .logo > a > span{
+        font-size: 1.2rem;
     }
-    .logo{
+    .formulario_login{
         width: 100%;
-        display: flex;
-        justify-content: center;
+        height: calc(100vh - 110px);
     }
-    nav{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    input[type="email"], input[type="password"]{
+        width: 80%;
     }
-    nav > ul {
-        width: 90%;
-        display: flex;
-        justify-content: center;
-        margin-left: 30px;
+    .chat{
+        background-color: #000000;
     }
-    .login{    
-        padding: 4px 25px;
+    nav > ul > li > a {
+        padding: 5px 8px;
     }
-    main{
-        height: calc(100vh - 130px);
-    }
-    .titulo_link{
-        width: 70%;
-    }
-    .titulo{
-        width: 100%;
-    }
-    .titulo_link > .titulo > h1{
-        font-size: 0.8rem;
+    nav > ul > li > a:hover{
+        transition: 0.5s;
+        padding: 8px 12px;
     }
     footer > small{
         font-size: 0.6rem;
     }
-    .titulo_link > .link > a {
-        padding: 8px 10px;
-        font-size: 0.8rem;
+    input[type="submit"]{
+        padding: 8px 40px;
     }
 }
