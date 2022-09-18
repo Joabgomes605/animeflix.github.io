@@ -52,19 +52,29 @@ nav > ul > li{
 }
 .registro{
     text-decoration: none;
-    padding: 8px 20px;
+    padding: 7px 20px;
     background-color: #ffffff;
     color: #222222;
     font-weight: 500;
     border-radius: 3px;
+    box-shadow: 1px 1px 5px #000000;
+}
+.registro:hover {
+    transition: 0.5s;
+    font-size: 1.2rem;
 }
 .login{
     text-decoration: none;
-    padding: 8px 20px;
+    padding: 7px 20px;
     background-color: #e3f707;
     color: #222222;
     font-weight: 500;
     border-radius: 3px;
+    box-shadow: 1px 1px 5px #000000;
+}
+.login:hover {
+    transition: 0.5s;
+    font-size: 1.2rem;
 }
 /*main*/
 main{
@@ -106,7 +116,7 @@ main{
 .titulo_link > .link > a {
     text-decoration: none;
     padding: 12px 25px;
-    background-color: #000000;
+    background-color: #222222;
     color: #e3f707;
     font-weight: 700;
     font-size: 1.5rem;
@@ -116,7 +126,8 @@ main{
 
 .titulo_link > .link > a:hover{
     transition: 0.8s;
-    background-color: #222222;
+    background-color: #000000;
+    font-size: 1.7rem;
     color: #e3f707;
 }
 
@@ -161,8 +172,6 @@ footer small{
     .titulo_link > .link > a {
         text-decoration: none;
         padding: 15px 25px;
-        background-color: #000000;
-        color: #e3f707;
         font-weight: 700;
         font-size: 1.5rem;
         border-radius: 5px;
@@ -272,8 +281,6 @@ footer small{
     .titulo_link > .link > a {
         text-decoration: none;
         padding: 10px 12px;
-        background-color:  #000000;
-        color: #e3f707;
         font-weight: 700;
         font-size: 1rem;
         border-radius: 5px;
