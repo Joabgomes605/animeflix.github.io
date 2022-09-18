@@ -140,7 +140,7 @@ main{
 }
 
 .formulario_login{
-    width: 60%;
+    width: 70%;
     height: 450px;
     background-color: #e3f707;
     box-shadow: 3px 3px 5px #000000;
@@ -148,18 +148,36 @@ main{
     align-items: center;
 }
 .formulario_login > form{
-    width: 100%;
+    width: 50%;
     height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 .titulo_form{
-    width: 100%;
-    height: 50px;
+    width: 50%;
+    height: 350px;
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+.img_titulo_form{
+    width: 75%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60%;
+    box-shadow: 3px 3px 5px #000000;
+}
+.img_titulo_form > img {
+    width: 100%;
+    min-height: 350px;
+    border-radius: 60%;
+    border: 5px solid #000000;
+    object-fit: cover;
 }
 .amarelo1{
     color: #222222;
@@ -173,11 +191,11 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
 }
 input[type="email"], input[type="password"]{
-    width: 50%;
-    padding: 12px;
+    width: 70%;
+    padding: 15px;
     border-radius: 3px;
     border: none;
     box-shadow: 1px 1px 4px #000000;
@@ -226,11 +244,23 @@ footer small{
 
 @media (max-width:1024px) {
     .formulario_login{
-        width: 70%;
+        width: 75%;
         height: 350px;
     }
+    .titulo_form{
+        width: 50%;
+        height: 300px;
+    }
+    .titulo_form > .img_titulo_form{
+        width: 76%;
+        height: 300px;
+    }
+    .img_titulo_form > img {
+        width: 100%;
+        min-height: 300px;
+    }
     input[type="email"], input[type="password"]{
-        width: 60%;
+        width: 85%;
     }
     input[type="submit"]{
         padding: 10px 50px;
@@ -241,12 +271,21 @@ footer small{
     .formulario_login{
         width: 70%;
         height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .titulo_form{
+        display: none;
+    }
+    .formulario_login > form{
+        width: 100%;
     }
     input[type="email"], input[type="password"]{
         width: 70%;
     }
     input[type="submit"]{
-        padding: 8px 50px;
+        padding: 8px 40px;
     }
     
 }
@@ -256,8 +295,11 @@ footer small{
         width: 100%;
         height: calc(100vh - 110px);
     }
+    .formulario_login > form{
+        width: 100%;
+    }
     input[type="email"], input[type="password"]{
-        width: 70%;
+        width: 75%;
     }
     .chat{
         background-color: #000000;
