@@ -194,7 +194,7 @@ main{
     gap: 20px;
 }
 input[type="email"], input[type="password"]{
-    width: 70%;
+    width: 75%;
     padding: 15px;
     border-radius: 3px;
     border: none;
