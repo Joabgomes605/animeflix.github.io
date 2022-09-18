@@ -92,13 +92,13 @@ main{
 
 .titulo{
     width: 100%;
-    background-color:#222222;
+    background-color:#e3f707;
     padding: 25px;
     box-shadow: 2px 2px 5px #000000;
 }
 
 .titulo_link > .titulo > h1{
-    color: #e3f707;
+    color: #000000;
     font-size: 2.3rem;
     text-align: center;
 }
@@ -106,12 +106,18 @@ main{
 .titulo_link > .link > a {
     text-decoration: none;
     padding: 12px 25px;
-    background-color: #e3f707;
-    color: #000000;
+    background-color: #000000;
+    color: #e3f707;
     font-weight: 700;
     font-size: 1.5rem;
     border-radius: 5px;
     box-shadow: 2px 2px 5px #000000;
+}
+
+.titulo_link > .link > a:hover{
+    transition: 0.8s;
+    background-color: #222222;
+    color: #e3f707;
 }
 
 /*footer*/
@@ -141,13 +147,13 @@ footer small{
     
     .titulo{
         width: 100%;
-        background-color:#222222;
+        background-color:#e3f707;
         padding: 10px;
         box-shadow: 2px 2px 5px #000000;
     }
     
     .titulo_link > .titulo > h1{
-        color: #e3f707;
+        color: #000000;
         font-size: 2rem;
         text-align: center;
     }
@@ -155,8 +161,8 @@ footer small{
     .titulo_link > .link > a {
         text-decoration: none;
         padding: 15px 25px;
-        background-color: #e3f707;
-        color: #000000;
+        background-color: #000000;
+        color: #e3f707;
         font-weight: 700;
         font-size: 1.5rem;
         border-radius: 5px;
@@ -191,17 +197,16 @@ footer small{
     }
     .titulo{
         width: 100%;
+        background-color: #e3f707;
     }
     .titulo_link > .titulo > h1{
-        color: #e3f707;
+        color: #000000;
         font-size: 1.7rem;
         text-align: center;
     }
     .titulo_link > .link > a {
         text-decoration: none;
         padding: 10px 20px;
-        background-color: #e3f707;
-        color: #000000;
         font-weight: 700;
         font-size: 1.5rem;
         border-radius: 5px;
@@ -256,19 +261,19 @@ footer small{
     }
     .titulo{
         width: 100%;
-        background-color: #222222;
+        background-color: #e3f707;
         box-shadow: 3px 3px 8px #222222;
     }
     .titulo_link > .titulo > h1{
-        color: #e3f707;
+        color: #000000;
         font-size: 1rem;
         text-align: center;
     }
     .titulo_link > .link > a {
         text-decoration: none;
         padding: 10px 12px;
-        background-color:  #e3f707;
-        color: #000000;
+        background-color:  #000000;
+        color: #e3f707;
         font-weight: 700;
         font-size: 1rem;
         border-radius: 5px;
