@@ -109,13 +109,13 @@ main{
 
 .titulo_link > .titulo > h1{
     color: #000000;
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-align: center;
 }
 
 .titulo_link > .link > a {
     text-decoration: none;
-    padding: 12px 15px;
+    padding: 15px 15px;
     background-color: #222222;
     color: #e3f707;
     font-weight: 700;
@@ -165,17 +165,23 @@ footer small{
     
     .titulo_link > .titulo > h1{
         color: #000000;
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
     }
     
     .titulo_link > .link > a {
         text-decoration: none;
-        padding: 15px 25px;
+        padding: 12px 15px;
         font-weight: 700;
         font-size: 1.5rem;
         border-radius: 5px;
         box-shadow: 2px 2px 5px #000000;
+    }
+    .titulo_link > .link > a:hover{
+        transition: 0.8s;
+        background-color: #000000;
+        font-size: 1.7rem;
+        color: #e3f707;
     }
 }
 
@@ -210,12 +216,12 @@ footer small{
     }
     .titulo_link > .titulo > h1{
         color: #000000;
-        font-size: 1.7rem;
+        font-size: 1.6rem;
         text-align: center;
     }
     .titulo_link > .link > a {
         text-decoration: none;
-        padding: 10px 20px;
+        padding: 10px 15px;
         font-weight: 700;
         font-size: 1.5rem;
         border-radius: 5px;
@@ -286,6 +292,12 @@ footer small{
         border-radius: 5px;
         box-shadow: 3px 3px 8px #222222;
     }
+    .titulo_link > .link > a:hover{
+        transition: 0.8s;
+        background-color: #000000;
+        font-size: 1.2rem;
+        color: #e3f707;
+    }
     
 }
 
@@ -320,6 +332,12 @@ footer small{
 
     footer > small{
         font-size: 0.7rem;
+    }
+    .titulo_link > .link > a:hover{
+        transition: 0.8s;
+        background-color: #000000;
+        font-size: 1.2rem;
+        color: #e3f707;
     }
 }
 
@@ -368,5 +386,11 @@ footer small{
     .titulo_link > .link > a {
         padding: 8px 10px;
         font-size: 0.8rem;
+    }
+    .titulo_link > .link > a:hover{
+        transition: 0.8s;
+        background-color: #000000;
+        font-size: 1rem;
+        color: #e3f707;
     }
 }
