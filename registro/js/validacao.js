@@ -8,6 +8,7 @@ const errorMsgNome = document.querySelector(".msgNome");
 const errorMsgEmail = document.querySelector(".msgEmail");
 const errorMsgSenha = document.querySelector(".msgSenha1");
 
+
 buttonSubmit.addEventListener("click", (e) => {
     e.preventDefault();
 
