@@ -15,12 +15,10 @@ buttonSubmit.addEventListener("click", (e) => {
     if( email || senhaValue === ""){
          errorMsg.textContent = "Usuário(a) ou senha inválido(a)"
          errorMsg.classList = "error";
-         setTimeout(() => {
-            errorMsg.textContent = "";
-            errorMsg.classList = "";
-         },3000)
+         campoEmail.style.border = "2px solid #DD1918"
+         campoSenha.style.border = "2px solid #DD1918"
          return;
     }else{
-
+        
     }  
 });
