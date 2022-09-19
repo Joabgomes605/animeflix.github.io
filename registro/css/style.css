@@ -354,6 +354,15 @@ footer small{
 }
 
 @media (max-width:425px) {
+    .logo{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo > a > span{
+        font-size: 1.6rem;
+    }
     .formulario_login{
         width: 100%;
         height: calc(100vh - 110px);
@@ -379,8 +388,13 @@ footer small{
 }
 
 @media (max-width:375px) {
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     .logo > a > span{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .formulario_login{
         width: 100%;
@@ -406,7 +420,7 @@ footer small{
 
 @media (max-width:320px) {
     .logo > a > span{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .formulario_login{
         width: 100%;
