@@ -226,6 +226,7 @@ input[type="submit"]:hover{
 
 .registre-se > span > a{
     text-decoration: none;
+    font-weight: 500;
 }
 
 .error{
