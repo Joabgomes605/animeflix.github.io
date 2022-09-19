@@ -164,7 +164,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 input[type="email"], input[type="password"],input[type="text"]{
     width: 80%;
@@ -197,6 +197,40 @@ input[type="submit"]:hover{
 .input_button > span > a{
     text-decoration: none;
     font-weight: 500;
+}
+
+.nomeInput{
+    border: 2px solid #DD1918;
+}
+.errorNome{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    color: #DD1918;
+}
+
+.emailInput{
+    border: 2px solid #DD1918;
+}
+.errorEmail{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    color: #DD1918;
+}
+
+.senhalInput{
+    border: 2px solid #DD1918;
+}
+
+.repeteSenhanput{
+    border: 2px solid #DD1918;
+}
+.errorSenha1{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    color: #DD1918;
 }
 
 /*footer*/

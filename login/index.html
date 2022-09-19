@@ -38,20 +38,22 @@
             </a>
         </div>
 
-        <section class="formulario_login">
+        <section class="formulario_login" id="formulario_login">
 
-            <div class="titulo_form">
+            <div class="titulo_form" id="titulo_form">
                 <div class="img_titulo_form">
                     <img src="img/crossover_animes.png" alt="">
                 </div>
             </div>
 
-            <form action="">
+            <form action="" id="form">
 
-                <div class="input_button">
-                    <input type="email" placeholder="Digite seu email" required>
-                    <input type="password" placeholder="Senha" required>
-                    <input type="submit" value="Enviar">
+                <div class="msg"></div>
+
+                <div class="input_button" id="input_button">
+                    <input type="email" placeholder="Digite seu email" required id="email">
+                    <input type="password" placeholder="Senha" required id="senha">
+                    <input type="submit" value="Enviar" id="submit">
                 </div>
 
                 <div class="registre-se">
@@ -67,6 +69,8 @@
     <footer>
         <small>Todos os direitos reservados a JoabDev.com | 2020 - 2022</small>
     </footer>
+
+    <script src="js/validacao.js"></script>
 
 </body>
 

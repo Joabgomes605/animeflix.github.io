@@ -228,6 +228,15 @@ input[type="submit"]:hover{
     text-decoration: none;
 }
 
+.error{
+    background-color: #DD1918;
+    color: #ffffff;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
 /*footer*/
 footer{
     width: 100%;

@@ -43,10 +43,16 @@
             <form action="">
 
                 <div class="input_button">
-                    <input type="text" placeholder="Nome Completo" required>
-                    <input type="email" placeholder="Digite seu email" required>
-                    <input type="password" placeholder="Senha" required>
-                    <input type="submit" value="Criar Conta">
+
+                    <input type="text" placeholder="Nome Completo" id="nome">
+                        <div class="msgNome"></div>          
+                    <input type="email" placeholder="Digite seu email" required id="email">
+                        <div class="msgEmail"></div>
+                    <input type="password" placeholder="Senha" required id="senha">
+                        <div class="msgSenha"></div>
+                    <input type="password" placeholder="Repita a sua senha" required id="repitaSenha">
+                        <div class="msgSenha1"></div>
+                    <input type="submit" value="Criar Conta" id="submit">
                     <span>Já possui uma conta? <a href="../login/index.html">Login</a></span>
                 </div>
 
@@ -59,6 +65,8 @@
     <footer>
         <small>Todos os direitos reservados a JoabDev.com | 2020 - 2022</small>
     </footer>
+
+    <script src="js/validacao.js"></script>
 
 </body>
 
