@@ -568,7 +568,7 @@ footer small {
 
 @media (max-width:1024px) {
     .formulario_login {
-        width: 90%;
+        width: 80%;
         height: 400px;
     }
 
@@ -579,31 +579,32 @@ footer small {
 
     .titulo_form>.img_titulo_form {
         width: 76%;
-        height: 340px;
+        height: 300px;
     }
 
     .img_titulo_form>img {
         width: 100%;
-        min-height: 340px;
+        min-height: 300px;
     }
 
     input[type="email"],
     input[type="password"] {
         width: 86%;
-        padding: 17px;
+        padding: 15px;
     }
 
     input[type="email"]::placeholder,
     input[type="password"]::placeholder {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     input[type="submit"] {
-        padding: 10px 50px;
+        padding: 10px 40px;
     }
 
     .registre-se > span{
-        font-size: 1.3rem;
+        font-weight: 600;
+        font-size: 1rem;
     }
 }
 

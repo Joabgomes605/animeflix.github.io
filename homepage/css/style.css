@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2? família=Noto+Sans+TC:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+html,
+body {
+    overflow-x: hidden !important;
+}
+
