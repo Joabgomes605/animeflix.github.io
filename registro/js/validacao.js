@@ -35,7 +35,7 @@ buttonSubmit.addEventListener("click", (e) => {
 
         campoEmail.style.border = "2px solid #DD1918"
         errorMsgEmail.textContent = "Email Inválido"
-         errorMsgNome.classList = "errorEmail";
+         errorMsgEmail.classList = "errorEmail";
          setTimeout(() => {
             errorMsgEmail.textContent = "";
             errorMsgEmail.classList = "";
