@@ -73,7 +73,7 @@ nav > ul > li{
 
 main {
     width: 100%;
-
+    background-color: #222222cf;
     display: flex;
     align-items: center;
     justify-content: center;
