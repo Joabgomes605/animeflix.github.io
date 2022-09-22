@@ -91,7 +91,7 @@ main {
 
 .animes_titulo {
     font-size: 20px;
-    color: #222222;
+    color: #000000;
     cursor: default;
 }
 
@@ -105,8 +105,8 @@ main {
 
 .anime-card {
     
-    width: 280px;
-    height: 450px;
+    width: 300px;
+    height: 475px;
     border-radius: 25px;
     
     display: flex;
@@ -115,10 +115,33 @@ main {
     gap: 20px;
 
     background-color: #222222;
-    background-image: url(../imgs/teste.PNG);
     background-size: contain;
     background-repeat: no-repeat;
 
+}
+
+.card01 {
+    background-image: url(../imgs/animes/bokunohero.png);
+}
+
+.card02 {
+    background-image: url(../imgs/animes/naruto.png);
+}
+
+.card03 {
+    background-image: url(../imgs/animes/dragonball.png);
+}
+
+.card04 {
+    background-image: url(../imgs/animes/demonslayer.png);
+}
+
+.card05 {
+    background-image: url(../imgs/animes/attackontitan.png);
+}
+
+.card06 {
+    background-image: url(../imgs/animes/swordartonline.PNG);
 }
 
 .anime-card:hover {
@@ -128,7 +151,11 @@ main {
 }
 
 .anime-text {
-    padding: 150px 10px 30px 10px;
+
+    width: 100%;
+    height: 200px;
+    margin-top: 170px;
+    padding: 0px 10px;
 
     display: flex;
     flex-direction: column;
@@ -145,7 +172,7 @@ main {
     text-align: justify;
     color: white;
     opacity: 0.8;
-    /*padding: 0px 10px;*/
+
 }
 
 .anime-button {
@@ -173,6 +200,7 @@ main {
 .anime-button > a:hover{
     transition: 0.5s;
     opacity: 0.6;
+    color: #000000;
     transform: scale(1.05);
 }
 
@@ -185,6 +213,7 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
 footer small{
     color: #e3f707;
 }
@@ -221,7 +250,7 @@ img:hover {
     } 
 }
 
-@media (max-width: 625px) {
+@media (max-width: 650px) {
     .animes {
         display: flex;
         flex-direction: column;
