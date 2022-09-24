@@ -25,7 +25,9 @@ buttonSubmit.addEventListener("click", (e) => {
         campoSenha.style.border = "2px solid #00ff99";
         msgSucesso.textContent = "Logado com sucesso 😊";
         msgSucesso.classList = "sucesso"
-        alert("Logado com sucesso!");
-        window.location.href = "../homepage/index.html"
+        alert("Olá! Bem vindo de volta.");
+        setTimeout(()=>{
+            window.location.href = "../homepage/index.html"
+        },2000);
     }  
 });
