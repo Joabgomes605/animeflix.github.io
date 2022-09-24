@@ -2,7 +2,8 @@ const campoEmail = document.querySelector("#email");
 const campoSenha = document.querySelector("#senha");
 const buttonSubmit = document.querySelector("#submit");
 
-const errorMsg = document.querySelector(".msg")
+const errorMsg = document.querySelector(".msg");
+const msgSucesso = document.querySelector(".sucesso");
 
 buttonSubmit.addEventListener("click", (e) => {
     e.preventDefault();
@@ -19,6 +20,12 @@ buttonSubmit.addEventListener("click", (e) => {
          campoSenha.style.border = "2px solid #DD1918"
          return;
     }else{
-        
+        msgSucesso.style.display = "flex"
+        campoEmail.style.border = "2px solid #00ff99";
+        campoSenha.style.border = "2px solid #00ff99";
+        msgSucesso.textContent = "Logado com sucesso 😊";
+        msgSucesso.classList = "sucesso"
+        alert("Logado com sucesso!");
+        window.location.href = "../homepage/index.html"
     }  
 });

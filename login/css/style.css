@@ -266,6 +266,15 @@ input[type="submit"]:hover {
     justify-content: center;
     padding: 5px;
 }
+.sucesso{
+    background-color: #00ff99;
+    color: #000000;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    display: none;
+}
 
 /*footer*/
 footer {
