@@ -20,6 +20,7 @@ buttonSubmit.addEventListener("click", (e) => {
          campoSenha.style.border = "2px solid #DD1918"
          return;
     }else{
+        errorMsg.style.display = "none"
         msgSucesso.style.display = "flex"
         campoEmail.style.border = "2px solid #00ff99";
         campoSenha.style.border = "2px solid #00ff99";
