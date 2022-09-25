@@ -9,6 +9,11 @@ html,body {
     overflow-x: hidden !important;
 }
 
+ .list-group, .list-group-item {
+    background-color: #4b4b4b!important;
+    color:#ffffff!important;
+ }
+
 /*header*/
 header{
     width: 100%;
@@ -121,6 +126,15 @@ footer .card {
     border: 0px;
 }
 
+
+.galeria .card {
+    height: 100%!important;
+    background-color: #4b4b4b!important;
+    color: #ffffff!important;
+    border: 0px!important;
+}
+
+
 .mt5 {
     margin-top: 5px;
 }
@@ -129,11 +143,35 @@ footer img:hover {
     transition: 1.5s;
     transform: rotate(360deg);
 }
-
+@media (min-width: 770px) {
+    .ml0 {
+        margin-left: 0px!important;
+    }
+}
 /* Media Queries */
 
 @media (max-width: 770px) {
     footer {
-        height: 490px;
+        height: 500px;
+    }
+    .title {
+        text-align: center;
+    }
+    iframe {
+        height: 500px;
+    }
+}
+@media (max-width: 430px) {
+    .galeria .card {
+        width: 45%;
+    }
+    .galeria img {
+        height: 170px;
+    }
+
+    iframe {
+        margin-left: 40px;
+        width: 80%;
+        height: 300px;
     }
 }
