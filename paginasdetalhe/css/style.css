@@ -107,15 +107,18 @@ main {
 /* Footer */
 footer{
     width: 100%;
-    height: 264px;
+    height: 364px;
     background-color: #222222;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
-footer small{
-    color: #e3f707;
+footer .footer_desenvolvimento {
+    padding-top: 40px;
+    color: gray;
 }
 
 footer .card {
@@ -143,16 +146,18 @@ footer img:hover {
     transition: 1.5s;
     transform: rotate(360deg);
 }
+
+/* Media Queries */
+
 @media (min-width: 770px) {
     .ml0 {
         margin-left: 0px!important;
     }
 }
-/* Media Queries */
 
 @media (max-width: 770px) {
     footer {
-        height: 500px;
+        height: 590px;
     }
     .title {
         text-align: center;
@@ -161,6 +166,7 @@ footer img:hover {
         height: 500px;
     }
 }
+
 @media (max-width: 430px) {
     .galeria .card {
         width: 45%;
