@@ -152,6 +152,11 @@ footer img {
     text-align: justify;
 }
 
+.card-body:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
 
 /* Media Queries */
 
