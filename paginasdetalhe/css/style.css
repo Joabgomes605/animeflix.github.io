@@ -129,7 +129,6 @@ footer .card {
     border: 0px;
 }
 
-
 .galeria .card {
     height: 100%!important;
     background-color: #4b4b4b!important;
@@ -152,7 +151,7 @@ footer img {
     text-align: justify;
 }
 
-.card-body:hover {
+.galeria .card-body:hover {
     transition: 0.5s;
     transform: scale(1.1);
 }
