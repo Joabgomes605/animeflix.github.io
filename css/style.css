@@ -79,7 +79,7 @@ nav>ul>li {
 .login {
     text-decoration: none;
     padding: 7px 20px;
-    background-color: #e3f707;
+    background-color: #e3f70787;
     color: #222222;
     font-weight: 500;
     border-radius: 3px;
@@ -117,7 +117,7 @@ main {
 
 .titulo {
     width: 100%;
-    background-color: #e3f707;
+    background-color: #e3f70787;
     padding: 8px;
     box-shadow: 3px 3px 5px #000000;
 }
@@ -334,7 +334,7 @@ footer img {
 
     .titulo {
         width: 100%;
-        background-color: #e3f707;
+        background-color: #e3f70787;
         padding: 10px;
         box-shadow: 2px 2px 5px #000000;
     }
@@ -393,7 +393,7 @@ footer img {
 
     .titulo {
         width: 100%;
-        background-color: #e3f707;
+        background-color: #e3f70787;
     }
 
     .titulo_link>.titulo>h1 {
@@ -468,7 +468,7 @@ footer img {
 
     .titulo {
         width: 100%;
-        background-color: #e3f707;
+        background-color: #e3f70787;
         box-shadow: 3px 3px 8px #222222;
     }
 
@@ -553,7 +553,7 @@ footer img {
 
     .titulo {
         width: 100%;
-        background-color: #e3f707;
+        background-color: #e3f70787;
         box-shadow: 3px 3px 8px #222222;
     }
 
