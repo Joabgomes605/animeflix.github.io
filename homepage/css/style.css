@@ -241,6 +241,10 @@ footer .card {
     border: 0px;
 }
 
+.banner {
+    width: 100%;
+}
+
 .mt5 {
     margin-top: 5px;
 }
@@ -275,4 +279,7 @@ footer img {
         flex-direction: column;
         gap: 40px;
     } 
+    .banner {
+        display: none;
+    }
 }
