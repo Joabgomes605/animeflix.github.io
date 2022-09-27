@@ -96,6 +96,7 @@ main {
     right: 20px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px #000000;
+    z-index: 10;
 }
 
 .chat>a {
@@ -105,6 +106,7 @@ main {
 
 .chat>a>.material-symbols-outlined {
     font-size: 1.5rem;
+
 }
 
 .chat:hover {

@@ -61,6 +61,7 @@ main{
     right: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px #000000;
+    z-index: 10;
 }
 .chat > a {
     text-decoration: none;
