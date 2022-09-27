@@ -243,7 +243,9 @@ footer .card {
 .mt5 {
     margin-top: 5px;
 }
-
+footer img:hover {
+    transform: rotate(360deg);
+}
 footer img {
     transition: transform .8s ease-in-out;
 }
