@@ -1234,6 +1234,10 @@ footer img:hover {
 
 }
 
+.formulario_login {
+    max-height: 570px!important;
+    max-width: 1465px!important;
+}
 @media (max-width:425px) {
     .formulario_login {
         width: 100%;
