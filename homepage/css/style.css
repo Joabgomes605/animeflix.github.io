@@ -141,7 +141,7 @@ main {
 }
 
 .card06 {
-    background-image: url(../imgs/animes/swordartonline.PNG);
+    background-image: url(../imgs/animes/swordartonline.png);
 }
 
 .anime-card:hover {
@@ -244,9 +244,11 @@ footer .card {
     margin-top: 5px;
 }
 
-img:hover {
-    transition: 1.5s;
-    transform: rotate(360deg);
+footer img {
+    transition: transform .8s ease-in-out;
+}
+.ficha_descricao {
+    text-align: justify;
 }
 
 /* Media Queries */

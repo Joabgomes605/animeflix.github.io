@@ -143,9 +143,15 @@ footer .card {
 }
 
 footer img:hover {
-    transition: 1.5s;
     transform: rotate(360deg);
 }
+footer img {
+    transition: transform .8s ease-in-out;
+}
+.ficha_descricao {
+    text-align: justify;
+}
+
 
 /* Media Queries */
 
