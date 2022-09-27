@@ -98,7 +98,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("../img/boku_no_hero.jpg");
+    background-image: url("../img/banner-main.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -269,7 +269,7 @@ footer img:hover {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url("../img/boku_no_hero.jpg");
+        background-image: url("../img/banner-main.gif");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -288,7 +288,7 @@ footer img:hover {
     
     .titulo {
         width: 100%;
-        background-color: #e3f707;
+        background-color: #e3f70787;
         padding: 8px;
         box-shadow: 3px 3px 5px #000000;
     }
@@ -454,7 +454,7 @@ footer img:hover {
     }
 
     main {
-        background-image: url("../img/boku_hero_2.png");
+        background-image: url("../img/banner-main.gif");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -539,7 +539,7 @@ footer img:hover {
     }
 
     main {
-        background-image: url("../img/boku_hero_2.png");
+        background-image: url("../img/banner-main.gif");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
