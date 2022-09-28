@@ -55,16 +55,44 @@ nav > ul {
 nav > ul > li{
     list-style: none;
 }
-.registro{
+.home{
     text-decoration: none;
     padding: 7px 20px;
-    background-color: #ffffff;
+    background-color: #e3f707;
     color: #222222;
     font-weight: 500;
     border-radius: 3px;
     box-shadow: 1px 1px 5px #000000;
 }
-.login{
+.itens{
+    text-decoration: none;
+    padding: 7px 20px;
+    background-color: #e3f707;
+    color: #222222;
+    font-weight: 500;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #000000;
+}
+.sobre{
+    text-decoration: none;
+    padding: 7px 20px;
+    background-color: #e3f707;
+    color: #222222;
+    font-weight: 500;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #000000;
+}
+
+.sair{
+    text-decoration: none;
+    padding: 7px 20px;
+    background-color: #e3f707;
+    color: #222222;
+    font-weight: 500;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #000000;
+}
+.registro{
     text-decoration: none;
     padding: 7px 20px;
     background-color: #e3f707;
