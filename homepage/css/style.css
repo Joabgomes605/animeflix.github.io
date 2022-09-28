@@ -273,6 +273,11 @@ footer .card {
     border: 0px;
 }
 
+.banner {
+    width: 100%;
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 10px;
+}
+
 .mt5 {
     margin-top: 5px;
 }
@@ -288,9 +293,15 @@ footer img {
 
 /* Media Queries */
 
-@media (max-width: 767px) {
+@media (max-width: 770px) {
     footer {
-        height: 590px;
+        height: 700px!important;
+    }
+}
+
+@media (max-width: 1400px) {
+    footer {
+        height: 400px;
     }
 }
 
@@ -307,4 +318,7 @@ footer img {
         flex-direction: column;
         gap: 40px;
     } 
+    .banner {
+        display: none;
+    }
 }

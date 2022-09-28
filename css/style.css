@@ -99,6 +99,7 @@ main {
     align-items: center;
     justify-content: center;
     background-image: url("../img/banner-main.gif");
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -698,6 +699,12 @@ footer img {
 
 @media (max-width: 770px) {
     footer {
-        height: 590px;
+        height: 700px!important;
+    }
+}
+
+@media (max-width: 1400px) {
+    footer {
+        height: 400px;
     }
 }
