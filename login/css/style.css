@@ -253,7 +253,7 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: center;
     font-weight: 400;
-    color: #e3f707;
+    color: #e3f707; 
 }
 
 .registre-se>span>a {
