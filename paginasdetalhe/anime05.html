@@ -14,21 +14,24 @@
 <body>
 
     <header>
-        <div class="logo">
-            <a href="../homepage/index.html">
-                <span class="amarelo">AnimeFlix アニメフリックス</span>
-            </a>
-        </div>
-
-        <nav>
-            <ul>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <section class="top-nav">
+            <div class="logo">
+                <a href="../homepage/index.html">
+                    <span class="amarelo">AnimeFlix <span class="letras-japones">アニメフリックス</span></span>
+                </a>
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
                 <li><a href="../homepage/index.html" class="home">Home</a></li>
                 <li><a href="#detalhes" class="itens">Itens</a></li>
                 <li><a href="#footer" class="sobre">Sobre Nós</a></li>
                 <li><a href="../index.html" class="sair">Sair</a></li>
-
             </ul>
-        </nav>
+        </section>
     </header>
 
     <main id="detalhes">

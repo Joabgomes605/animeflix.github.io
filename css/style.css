@@ -715,3 +715,9 @@ main {
         height: 400px;
     }
 }
+
+@media (max-width: 685px){
+    .letras-japones{
+        display: none;
+    }
+}

@@ -261,7 +261,7 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: center;
     font-weight: 400;
-    color: #e3f707;
+    color: #222222;
 }
 
 .registre-se>span>a {
@@ -1352,5 +1352,11 @@ footer img {
 @media (max-width: 1400px) {
     footer {
         height: 400px;
+    }
+}
+
+@media (max-width: 810px) {
+    .letras-japones {
+        display: none;
     }
 }

@@ -444,6 +444,12 @@ footer img {
     input[type="submit"]{
         padding: 8px 40px;
     }
+    .letras-japones {
+        display: none;
+    }
+
+
+
 }
 
 @media (max-width:375px) {
@@ -502,7 +508,7 @@ footer img {
 
 @media (max-width: 770px) {
     footer {
-        height: 700px!important;
+        height: 785px!important;
     }
 }
 
