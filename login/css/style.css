@@ -114,6 +114,14 @@ main {
     animation: rotate-scale-up 0.65s linear both;
 }
 
+header {
+    position: fixed;
+    z-index: 10;
+}
+main {
+    padding-top: 70px;
+}
+
 @-webkit-keyframes rotate-scale-up {
     0% {
         -webkit-transform: scale(1) rotateZ(0);

@@ -182,6 +182,13 @@ footer img:hover {
 footer img {
     transition: transform .8s ease-in-out;
 }
+header {
+    position: fixed;
+    z-index: 10;
+}
+main {
+    padding-top: 70px;
+}
 
 /*media query = 1440px*/
 @media (min-width:1440px) {
