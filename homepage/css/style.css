@@ -15,7 +15,7 @@ header{
     height: 70px;
     background-color: #222222;
     display: flex;
-}
+    }
 .logo{
     width: 50%;
     height: 70px;
@@ -25,6 +25,7 @@ header{
 .logo > a {
     margin-left: 30px;
     text-decoration: none;
+   
 }
 .amarelo{
     color: #e3f707;
@@ -50,16 +51,8 @@ nav > ul {
 nav > ul > li{
     list-style: none;
 }
-.registro{
-    text-decoration: none;
-    padding: 7px 20px;
-    background-color: #ffffff;
-    color: #222222;
-    font-weight: 500;
-    border-radius: 3px;
-    box-shadow: 1px 1px 5px #000000;
-}
-.login{
+
+.home{
     text-decoration: none;
     padding: 7px 20px;
     background-color: #e3f707;
@@ -68,6 +61,45 @@ nav > ul > li{
     border-radius: 3px;
     box-shadow: 1px 1px 5px #000000;
 }
+.itens{
+    text-decoration: none;
+    padding: 7px 20px;
+    background-color: #e3f707;
+    color: #222222;
+    font-weight: 500;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #000000;
+}
+.sobre{
+    text-decoration: none;
+    padding: 7px 20px;
+    background-color: #e3f707;
+    color: #222222;
+    font-weight: 500;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #000000;
+}
+
+.sair{
+    text-decoration: none;
+    padding: 7px 20px;
+    background-color: #e3f707;
+    color: #222222;
+    font-weight: 500;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #000000;
+}
+.registro{
+    text-decoration: none;
+    padding: 7px 20px;
+    background-color: #e3f707;
+    color: #222222;
+    font-weight: 500;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #000000;
+}
+
+
 
 /* MAIN */
 
