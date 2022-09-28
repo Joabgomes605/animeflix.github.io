@@ -327,6 +327,7 @@ footer img {
         height: 100px;
         background-color: #222222;
         display: flex;
+        
     }
 
     .logo {
@@ -394,6 +395,7 @@ footer img {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        padding-top: 70px;
     }
 
     .chat {
@@ -1324,6 +1326,7 @@ footer img {
     footer {
         height: 400px;
     }
+
 }
 
 @media (max-width: 810px) {

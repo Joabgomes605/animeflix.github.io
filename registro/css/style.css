@@ -374,9 +374,7 @@ footer img {
 
 @media (max-width:1024px) {
 
-    main {
-        height: calc(115vh - 110px)
-    }
+
 
     .formulario_login{
         width: 75%;
@@ -525,5 +523,8 @@ footer img {
 @media (max-width: 1400px) {
     footer {
         height: 400px;
+    }
+    main {
+        height: calc(115vh - 110px);
     }
 }
