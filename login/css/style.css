@@ -5,17 +5,19 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html,
-body {
+html, body {
     overflow-x: hidden !important;
 }
 
-/*header*/
+/* Header */
+
 header {
     width: 100%;
     height: 70px;
     background-color: #222222;
     display: flex;
+    position: fixed;
+    z-index: 10;
 }
 
 .logo {
@@ -69,7 +71,7 @@ nav>ul>li>a:hover {
     padding: 10px 20px;
 }
 
-/*main*/
+/* Main */
 
 main {
     width: 100%;
@@ -81,6 +83,8 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    padding-top: 70px;
 }
 
 .chat {
@@ -112,14 +116,6 @@ main {
 .chat:hover {
     -webkit-animation: rotate-scale-up 0.65s linear both;
     animation: rotate-scale-up 0.65s linear both;
-}
-
-header {
-    position: fixed;
-    z-index: 10;
-}
-main {
-    padding-top: 70px;
 }
 
 @-webkit-keyframes rotate-scale-up {
@@ -594,31 +590,6 @@ footer img {
 
 @media (min-width:1920px) {
 
-    /*header*/
-    header {
-        width: 100%;
-        height: 150px;
-        background-color: #222222;
-        display: flex;
-    }
-
-    .logo {
-        width: 50%;
-        height: 150px;
-        display: flex;
-        align-items: center;
-    }
-
-    .logo > a {
-        margin-left: 3rem;
-        text-decoration: none;
-    }
-
-    .amarelo {
-        color: #e3f707;
-        font-weight: bold;
-        font-size: 3rem;
-    }
 
     nav {
         width: 50%;
@@ -1345,7 +1316,7 @@ footer img {
 
 @media (max-width: 770px) {
     footer {
-        height: 700px!important;
+        height: 745px!important;
     }
 }
 
